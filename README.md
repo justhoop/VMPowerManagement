@@ -1,0 +1,1 @@
+PowerShell script that is launched from a scheduled task when a system event id 105 is detected in the Windows event log. It monitors the connected UPS until it drops below 10%. Then it powers down the VMS and ESXI host. 
